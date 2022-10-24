@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #24252B;
+}
+
+.maindiv {
+    background-color: #1A1C22;
+    width: 300px;
+    border-radius: 7px;
+}
+
+.image {
+    width: 300px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.name {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 15%;
+}
+
+.job {
+    font-size: 15px;
+    color: #F3BF99;
+    margin-left: 27%;
+}
+
+.website {
+    font-size: 10px;
+    color: #FBFDFF;
+    margin-left: 36%;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    border-radius: 7px;
+    width: 250px;
+    height: 25px;
+    margin-left: 25px;
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+.about {
+    margin-left: 9%;
+}
+
+.about-header {
+    font-size: 20px;
+    color: #F5F5F5;
+}
+
+.about-txt {
+    color: #a5a7ad;
+    font-size: 12px;
+}
+
+.interests {
+    margin-left: 9%;
+}
+
+.interests-header {
+    font-size: 20px;
+    color: #F5F5F5;
+}
+
+.interests-txt {
+    color: #a5a7ad;
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 7px 7px;
+    column-gap: 10px;
+    background-color: #161618;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
